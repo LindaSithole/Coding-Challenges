@@ -1,16 +1,15 @@
-def print_vowels():
+def print_vowels(word):
 
-    user_input = input("Enter A Word:")
 
-    vowels = "a", "e", "i", "o", "u"
+    vowels = "a", "e", "i", "o", "u", "A", "E", "I", "O", "U"
     occurrences = ""
 
-    for i in user_input:
+    for i in word:
         if i in vowels:
             occurrences += i
 
     print("vowels:", ", ".join(occurrences))
 
 
-print_vowels()
+print_vowels("Alphabets")
 
