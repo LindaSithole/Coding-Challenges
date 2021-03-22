@@ -1,8 +1,8 @@
-def area__of_triangle():
+def area__of_triangle(half):
     
     base = 4
     height = 3
 
-    return (0.5 * base) * height
+    return (half * base) * height
 
-print(area__of_triangle())
+print(area__of_triangle(0.5))
