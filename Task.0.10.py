@@ -25,4 +25,4 @@ def match_up(first_word, second_word):
             second_elements += i
     print("Common Letters:", ", ".join (second_elements))
 
-match_up("strong", "strange")
+match_up("House", "Computers")
