@@ -1,7 +1,7 @@
 def print_vowels(word):
 
 
-    vowels = "a", "e", "i", "o", "u", "A", "E", "I", "O", "U"
+    vowels = "a", "e", "i", "o", "u"
     occurrences = ""
 
     for i in word:
