@@ -1,9 +1,15 @@
 
+def maximum(a, b, c):
 
-def maximum(*num):
+    if (a >= b) and (a >= c):
+        maximum_number = a
 
-    new_sorted_tuples = sorted(num)
+    elif (b >= a) and (b >= c):
+        maximum_number = b
+    else:
+        maximum_number = c
 
-    return new_sorted_tuples[-1]
+    return maximum_number
 
-print(maximum(22, 2, 5, 1))
+
+print(maximum(35, 24, 20))
