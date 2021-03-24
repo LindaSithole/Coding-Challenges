@@ -1,8 +1,9 @@
-def area__of_triangle(half):
-    
-    base = 4
-    height = 3
+def area__of_triangle(a, b, c):
 
-    return (half * base) * height
+    semi_p = (a + b + c) / 2
 
-print(area__of_triangle(0.5))
+    area = (semi_p * (semi_p - a) * (semi_p - b) * (semi_p - c)) ** 0.5
+    return round(area)
+
+
+print(area__of_triangle(5, 6, 7))
