@@ -1,17 +1,15 @@
 
 def hours_into_minutes(number):
 
-  
     hour = number // 60
-    hr = str(hour)
     minute = number % 60
-    mnt = str(minute)
 
-    if number <= 60 and minute <= 1:
-        print(hr + "hour," + mnt + "minute")
+    time = ("{0} hour{1}, ".format(hour, "s" if hour != 1 else "") if hour else "") + \
+           ("{0} minute{1} ".format(minute, "s" if minute != 1 else "") if minute else "")
 
-    elif number >= 60 and minute >= 1:
-        print(hr + "hour," + mnt + "minute")
-              
 
-hours_into_minutes(71)
+    return time
+
+print(hours_into_minutes(124587))
+
+
