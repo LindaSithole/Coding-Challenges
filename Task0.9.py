@@ -11,5 +11,5 @@ def print_vowels(word):
     print("vowels:", ", ".join(occurrences))
 
 
-print_vowels("Alphabets")
+print_vowels("Umuzi")
 
