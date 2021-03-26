@@ -1,18 +1,18 @@
+def celsius_to_fahrenheit(celsius):
 
-def celsius_to_fahrenhiet(degrees):
+    fahrenheit = 9.0 / 5.0 * celsius + 32
 
-    celsius = 28
-    fahrenheit = 35
+    return fahrenheit
 
-    return ( celsius * degrees ) + fahrenheit
 
-print(celsius_to_fahrenhiet(1.8),"F")
+print(celsius_to_fahrenheit(0))
 
-def fahrenheit_to_celsius(conversion_factor):
 
-    celsius = 28
-    fahrenheit = 35
+def fahrenheit_to_celsius(fahrenheit):
 
-    return ( celsius - fahrenheit ) * conversion_factor
+    celsius = (fahrenheit - 32) * 5.0 / 9.0
 
-print(fahrenheit_to_celsius(5/9),"°C")
+    return celsius
+
+
+print(fahrenheit_to_celsius(32))
