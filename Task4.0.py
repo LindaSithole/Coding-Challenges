@@ -1,9 +1,12 @@
-def even_or_odd(values):
-
-    if (values % 2) == 0:
+Public class even_or_odd{
+    public static void main(string[] args){
+    
+    
+    int val = 10;
+    if (values % 2 == 0}{
         return "even"
-    else:
+    else {
         return "odd"
+    }
 
-
-print(even_or_odd(199))
+system.out.println(even_or_odd(199));
