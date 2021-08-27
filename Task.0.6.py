@@ -10,3 +10,5 @@ public class CodingChallenges {
                 
    
         System.out.println(Math.max(a, b,c,d));
+    }
+}
