@@ -1,15 +1,12 @@
+public class CodingChallenges {
 
-def maximum(a, b, c):
-
-    if (a >= b) and (a >= c):
-        maximum_number = a
-
-    elif (b >= a) and (b >= c):
-        maximum_number = b
-    else:
-        maximum_number = c
-
-    return maximum_number
-
-
-print(maximum(35, 24, 20))
+   
+    public static void main(String[] args) {
+      
+        int a = 1;
+        int b = 23;
+        int c = 3;
+        int d = 2;      
+                
+   
+        System.out.println(Math.max(a, b,c,d));
