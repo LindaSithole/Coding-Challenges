@@ -9,6 +9,6 @@ public class CodingChallenges {
         int d = 2;      
                 
    
-        System.out.println(Math.max(a, b,c,d));
+        System.out.println(Math.max(a, b, c, d));
     }
 }
