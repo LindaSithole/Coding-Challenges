@@ -1,12 +1,28 @@
-Public class even_or_odd{
-    public static void main(string[] args){
-    
-    
-    int val = 10;
-    if (values % 2 == 0}{
-        return "even"
-    else {
-        return "odd"
-    }
+package evenorod;
+import java.util.Scanner;
 
-system.out.println(even_or_odd(199));
+public class EvenOrOd {
+
+    public static void main(String[] args) {
+       int num;
+       Scanner scanner;
+       
+       scanner = new Scanner(System.in);
+       System.out.println("Enter an Integer");
+       num = scanner.nextInt();
+       
+        if (isEven(num)) {
+      
+            System.out.println(num + " is Even Number");
+        } else {
+           
+            System.out.println(num + " is Odd Number");
+        }
+    }
+    public static boolean isEven(int num) {
+        if (num % 2 == 0)
+            return true;
+        else
+            return false;
+    }
+}
