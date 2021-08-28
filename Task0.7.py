@@ -1,18 +1,31 @@
-def celsius_to_fahrenheit(celsius):
+package evenorod;
+import java.util.Scanner;
 
-    fahrenheit = 9.0 / 5.0 * celsius + 32
+public class EvenOrOd {
 
-    return fahrenheit
+    public static void main(String[] args) {
+     
+  double a,c;
+             	    Scanner sc=new Scanner(System.in);	   	 
+	    System.out.println("Enter  Fahrenheit temperature");
+                   a=sc.nextDouble(); 
+	    System.out.println("Celsius temperature is = "+celsius(a));		  	  	     
+	} 
+	static double celsius(double f)
+	{	
+	return  (f-32)*5/9;
+	}
 
-
-print(celsius_to_fahrenheit(0))
-
-
-def fahrenheit_to_celsius(fahrenheit):
-
-    celsius = (fahrenheit - 32) * 5.0 / 9.0
-
-    return celsius
-
-
-print(fahrenheit_to_celsius(32))
+ public static void secondFunction(String arg[])	
+	{
+	    double a,c;
+             	    Scanner sc=new Scanner(System.in);	   	 
+	    System.out.println("Enter  Celsius temperature");
+                   a=sc.nextDouble(); 
+	    System.out.println("Fahrenheit temperature is = "+fahrenheit(a));		  	  	     
+	} 
+	static double fahrenheit(double c)
+	{	
+	return  ((9*c)/5)+32;
+	}
+}
