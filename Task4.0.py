@@ -13,10 +13,10 @@ public class EvenOrOd {
        
         if (isEven(num)) {
       
-            System.out.println(num + " is Even Number");
+            System.out.println("Even");
         } else {
            
-            System.out.println(num + " is Odd Number");
+            System.out.println("Odd");
         }
     }
     public static boolean isEven(int num) {
