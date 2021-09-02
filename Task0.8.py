@@ -1,15 +1,49 @@
 
-def hours_into_minutes(number):
+package Time;
 
-    hour = number // 60
-    minute = number % 60
+import java.util.Scanner;
 
-    time = ("{0} hour{1}, ".format(hour, "s" if hour != 1 else "") if hour else "") + \
-           ("{0} minute{1} ".format(minute, "s" if minute != 1 else "") if minute else "")
+/**
+ *
+ * @author Student
+ */
+public class Time {
+    public static void main (String[] args){
+    
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter"  );
+        
+        int sec = sc .nextInt();
+        int mins = sec % 3600 / 60;
+        int hr = sec / 3600;
+        int s2 = sec %3600%60;
+      
+      
+     System.out.println(hr + "Hour(s)" + mins +"minute(s)"+s2+"Second(s)"); 
+       
+   }
+    
+        
+    }
+        
+        
+    
+            
+      
+                
 
+ 
 
-    return time
+    
+    
+     
+              
+           
+      
+        
+  
 
-print(hours_into_minutes(124587))
+    
+
 
 
