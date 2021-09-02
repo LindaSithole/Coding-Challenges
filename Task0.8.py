@@ -11,7 +11,7 @@ public class Time {
     public static void main (String[] args){
     
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter"  );
+        System.out.println("Enter Number"  );
         
         int sec = sc .nextInt();
         int mins = sec % 3600 / 60;
