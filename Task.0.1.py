@@ -1,13 +1,18 @@
-Public class Project{
-    public static void main(string[] args){
+package javaapplication15;
+
+public class JavaApplication15 {
+
+    public static void main(String[] args) {
 
       int x = 0;
       int y = 1;
-      system.out.println(x);
-      system.out.println(y);
+      System.out.println(x);
+      System.out.println(y);
 
 
-      x = x + 3
-      y = y + x
-      system.out.println(x)
-      system.out.println(y)
+       x = 0 + 3;
+       y = 1 + 3;
+      System.out.println(x);
+      System.out.println(y);
+    }   
+    }
