@@ -1,7 +1,7 @@
 package evenorod;
 import java.util.Scanner;
 
-public class EvenOrOd {
+public class Temp {
 
     public static void main(String[] args) {
      
