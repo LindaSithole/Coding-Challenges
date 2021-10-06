@@ -1,23 +1,16 @@
-public class EvenOrOdd {
+public class Task4 {
 
-    public static boolean evenOrOdd(int num){
+        public static int evenOrOdd(int num) {
 
-        if (num % 2 == 0)
-            return true;
-        else
-            return false;
+            if (num % 2 == 0)
+                System.out.println("Even");
+            else
+                System.out.println("Odd");
+            return num;
+        }
+    
+        public static void main(String[] args) {
+
+            evenOrOdd(3);
+        }
     }
-
-
-
-    public static void main(String[] args) {
-
-
-
-        if (isEven(num)) {
-
-            System.out.println("Even");
-        } else {
-
-            System.out.println("Odd");
-        }}       }
