@@ -1,6 +1,4 @@
-public class Characters {
-    public static class JavaApplication3 {
-
+public class Task10 {
         static void common_chars(String str_1, String str_2){
             int[] array_1 = new int[26];
             int[] array_2 = new int[26];
