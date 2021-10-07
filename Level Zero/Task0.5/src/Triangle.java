@@ -1,23 +1,13 @@
-public class Triangle {
 
-
-    static double area(double h, double b)
-    {
-
-        return (h * b) / 2;
+public class Task5{
+        static double Area(double a, double b, double c)
+        {
+            double semiparameter = (a + b + c) / 2;
+            int area = (int)Math.sqrt((semiparameter)*(semiparameter-a)*(semiparameter-b)*(semiparameter-c));
+            return area;
+        }
+        public static void main(String[] args)
+        {
+            System.out.println("Area of the triangle: " + Area(3,4,5));
+        }
     }
-
-    public static void main(String[] args)
-    {
-
-        double h = 10;
-
-
-        double b = 15;
-
-
-        System.out.println("Area of the triangle: "
-                + area(h, b));
-    }
-}
-
