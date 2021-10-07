@@ -1,29 +1,15 @@
-import java.util.Scanner;
-public class EvenOrOdd {
 
+public class Task4 {
+    public static boolean isEven(int num) {
 
-
-    public static class EvenOrOd {
-
-        public static void main(String[] args) {
-            int num;
-            Scanner scanner;
-
-            scanner = new Scanner(System.in);
-            System.out.println("Enter an Integer");
-            num = scanner.nextInt();
-
-            if (isEven(num)) {
-
-                System.out.println("Even");
-            } else {
-
-                System.out.println("Odd");
-            }
+        if (isEven(num)) {
+            System.out.println("Even");
+        }else{
+            System.out.println("Odd");
         }
-
-        public static boolean isEven(int num) {
-            return num % 2 == 0;
-        }
+        return num % 2 == 0;
     }
+        public static void main(String[] args) {
+            isEven(4);
+        }
 }
