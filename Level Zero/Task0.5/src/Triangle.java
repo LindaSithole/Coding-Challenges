@@ -8,6 +8,6 @@ public class Task5{
         }
         public static void main(String[] args)
         {
-            System.out.println("Area of the triangle: " + Area(3,4,5));
+            return("Area of the triangle: " + Area(3,4,5));
         }
 }
