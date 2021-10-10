@@ -7,8 +7,7 @@ public class Task4 {
             else
                 System.out.println("Odd");
             return num;
-        }
-    
+        }    
         public static void main(String[] args) {
 
             evenOrOdd(3);
