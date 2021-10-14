@@ -4,15 +4,18 @@ class Task7 {
             celsius(5);
             fahrenheit(8);
         }
-        static void celsius(double  temperature){
+        static boolean celsius(double  temperature){
 
             temperature = ((temperature-32)*5/9);
             System.out.println(" fahrenheit= " + temperature+"°F");
+            return true;
         }
-    static void fahrenheit(double  temperature){
+    static boolean fahrenheit(double  temperature){
 
         temperature = ((temperature - 32)*5)/9;
         System.out.println(" Celsius = " + temperature+"°C");
+        return true;
     }
 }
+
 
