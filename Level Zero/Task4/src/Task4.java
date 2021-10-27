@@ -5,7 +5,7 @@ class Task4 {
         } else {
             System.out.println("Odd");
         }
-            }
+    }
 
     public static void main(String[] args) {
         EvenOrOdd(5);
