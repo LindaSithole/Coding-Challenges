@@ -2,7 +2,7 @@ class Task6 {
     public static void main(String[] args){
         MaximNumber(6,3,4);
     }
-    static int MaximNumber(int num1, int num2, int num3 ){
+    static int maximNumber(int num1, int num2, int num3 ){
         int max;
         if (num1 > num2 && num1 > num3) {
                 max = num1;
