@@ -1,22 +1,23 @@
 class Task8 {
 
-    public static void TimeConversion(int fullSeconds) {
+    public static void timeConversion(int fullSeconds) {
         int hours = fullSeconds % 3600 / 60;
-            if (hours >= 2 || hours == 0) {
-                System.out.print(hours + "Hours,");
-            }else {
-                System.out.print(hours + "Hour,");
-            }
-        int  minutes = fullSeconds % 3600 % 60;
-            if (minutes >= 2 || minutes == 0) {
-                System.out.print(minutes + "minutes");
-            }else {
-                System.out.print(hours + "minute");
-            }
-            }
-    public static void main (String[] args){
+        if (hours >= 2 || hours == 0) {
+            System.out.print(hours + " hours, ");
+        } else {
+            System.out.print(hours + " hour, ");
+        }
+        int minutes = fullSeconds % 3600 % 60;
+        if (minutes == 1 ) {
+            System.out.println(minutes + " minute");
+        } else {
+            System.out.println(hours + " minutes");
+        }
+    }
 
-        TimeConversion(0);
+    public static void main(String[] args) {
+
+        timeConversion(21);
     }
 }
 
