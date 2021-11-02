@@ -1,8 +1,14 @@
 public class Task10 {
 
-    public static void common_chars(String string1, String string2) {
-     
-        String string3 = string1, string4 = string2, commonLetter = "";
+    public static void main(String[] args){
+        commonCharacters("house" , "computers");
+
+    }
+    public static void commonCharacters(String string1, String string2) {
+
+        String string3 = string1;
+        String string4 = string2;
+        StringBuilder commonLetter = new StringBuilder();
         System.out.print("Common Characters:" + " ");
 
         if (string1.length() > string2.length()) {
@@ -16,11 +22,11 @@ public class Task10 {
                 String string6 = Character.toString(string4.charAt(y));
 
                 if (str5.equals(string6)) {
-                    commonLetter += str5 + ",";
+                    commonLetter.append(str5).append(",");
                 }
             }
         }
-        commonLetter = commonLetter.substring(0, commonLetter.length() - 1);
+        commonLetter = new StringBuilder(commonLetter.substring(0, commonLetter.length() - 1));
         System.out.println(commonLetter);
     }
 }
