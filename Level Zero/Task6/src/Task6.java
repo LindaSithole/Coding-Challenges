@@ -1,6 +1,6 @@
 class Task6 {
     public static void main(String[] args){
-        MaximNumber(6,3,4);
+        maximNumber(6,3,4);
     }
     static int maximNumber(int num1, int num2, int num3 ){
         int max;
