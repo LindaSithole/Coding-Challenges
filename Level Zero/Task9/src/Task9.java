@@ -1,8 +1,12 @@
 
+
 class Task9 {
     
     public static void main(String[] args) {
-        String str = "Umuzi";
+        vowelsInAString("Umuzi");
+    }
+
+    public static void vowelsInAString(String str){
         System.out.print("Vowels:" + " ");
         StringBuilder string1 = new StringBuilder();
 
@@ -14,7 +18,7 @@ class Task9 {
             }
         }
         String result = string1.substring(0, string1.length()-1);
-        System.out.print(result);
+        System.out.println(result);
     }
 }
 
