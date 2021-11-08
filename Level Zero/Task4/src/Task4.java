@@ -6,8 +6,7 @@ class Task4 {
             System.out.println("Odd");
         }
     }
-
     public static void main(String[] args) {
-        EvenOrOdd(5);
+        evenOrOdd(4);
     }
 }
