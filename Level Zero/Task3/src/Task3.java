@@ -1,13 +1,9 @@
 class Task3 {
-        
         public static void main(String[] args) {
-
-            Hello("Tshepo");
+            hello("Tshepo");
         }
-        
-        public static void Hello(String name) {
-
-            System.out.println(name+"!");
+        public static void hello(String name) {
+            System.out.println("Hello"+" "+name+"!" );
         }
 }
 
